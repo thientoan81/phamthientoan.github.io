@@ -23,10 +23,21 @@
 	<link rel="stylesheet" href="carousel/css/animate.css">
 	<link rel="stylesheet" href="carousel/css/style.css">
 
+	
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
 
 	</head>
 </head>
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+	<div>
+		<div class="indicator"></div>
+	</div>
 	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
 		<div class="container">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
@@ -65,6 +76,7 @@
 				</div>
 				<div class="filters-content">
 					<div class="row grid">
+						<!-- Visual Identity -->
 						<div class="single-portfolio col-sm-4 all visual-identity">
 							<div class="relative">
 								<div class="thumb portfolio-item">
@@ -93,12 +105,12 @@
 								<div class="cat">Packaging</div>
 							</div>
 						</div>
-						<div class="single-portfolio col-sm-4 all advertising">
+						<div class="single-portfolio col-sm-4 all visual-identity">
 							<div class="relative">
 								<div class="thumb portfolio-item">
 									<div class="overlay overlay-bg"></div>
 									<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-										<img class="img-fluid" src="images/02.jpg" alt="..." />
+										<img class="img-fluid" src="images/visual-identity/01.jpg" alt="..." />
 									</a>
 								</div>
 							</div>
@@ -107,12 +119,73 @@
 								<div class="cat">Packaging</div>
 							</div>
 						</div>
-						<div class="single-portfolio col-sm-4 all packaging">
+
+						<!-- Advertising -->
+						<div class="single-portfolio col-sm-4 all advertising">
 							<div class="relative">
 								<div class="thumb portfolio-item">
 									<div class="overlay overlay-bg"></div>
-									<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-										<img class="img-fluid" src="images/02.jpg" alt="..." />
+									<a class="portfolio-link" data-bs-toggle="modal" href="#advertising1">
+										<img class="img-fluid" src="images/advertising/kartell/00.jpg" alt="..." />
+									</a>
+								</div>
+							</div>
+							<div class="p-inner">
+								<h4>Creative Package Design</h4>
+								<div class="cat">Packaging</div>
+							</div>
+						</div>
+						<div class="single-portfolio col-sm-4 all advertising">
+							<div class="relative">
+								<div class="thumb portfolio-item">
+									<div class="overlay overlay-bg"></div>
+									<a class="portfolio-link" data-bs-toggle="modal" href="#advertising2">
+										<img class="img-fluid" src="images/advertising/eWater/00.jpg" alt="..." />
+									</a>
+								</div>
+							</div>
+							<div class="p-inner">
+								<h4>Creative Package Design</h4>
+								<div class="cat">Packaging</div>
+							</div>
+						</div>
+						<div class="single-portfolio col-sm-4 all advertising">
+							<div class="relative">
+								<div class="thumb portfolio-item">
+									<div class="overlay overlay-bg"></div>
+									<a class="portfolio-link" data-bs-toggle="modal" href="#advertising3">
+										<img class="img-fluid" src="images/advertising/nhagiaovietnam/00.jpg" alt="..." />
+									</a>
+								</div>
+							</div>
+							<div class="p-inner">
+								<h4>Creative Package Design</h4>
+								<div class="cat">Packaging</div>
+							</div>
+						</div>
+						<div class="single-portfolio col-sm-4 all advertising">
+							<div class="relative">
+								<div class="thumb portfolio-item">
+									<div class="overlay overlay-bg"></div>
+									<a class="portfolio-link" data-bs-toggle="modal" href="#advertising4">
+										<img class="img-fluid" src="images/advertising/quoctephunu/00.jpg" alt="..." />
+									</a>
+								</div>
+							</div>
+							<div class="p-inner">
+								<h4>Creative Package Design</h4>
+								<div class="cat">Packaging</div>
+							</div>
+						</div>
+
+
+						<!-- Social Post -->
+						<div class="single-portfolio col-sm-4 all social-post">
+							<div class="relative">
+								<div class="thumb portfolio-item">
+									<div class="overlay overlay-bg"></div>
+									<a class="portfolio-link" data-bs-toggle="modal" href="#socialPost1">
+										<img class="img-fluid" src="images/socail-post/ngayquoctethieunhi/00.jpg" alt="..." />
 									</a>
 								</div>
 							</div>
@@ -125,8 +198,8 @@
 							<div class="relative">
 								<div class="thumb portfolio-item">
 									<div class="overlay overlay-bg"></div>
-									<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-										<img class="img-fluid" src="images/02.jpg" alt="..." />
+									<a class="portfolio-link" data-bs-toggle="modal" href="#socialPost2">
+										<img class="img-fluid" src="images/socail-post/ngayphunuvietnam/00.jpg" alt="..." />
 									</a>
 								</div>
 							</div>
@@ -135,12 +208,12 @@
 								<div class="cat">Packaging</div>
 							</div>
 						</div>
-						<div class="single-portfolio col-sm-4 all publication">
+						<div class="single-portfolio col-sm-4 all social-post">
 							<div class="relative">
 								<div class="thumb portfolio-item">
 									<div class="overlay overlay-bg"></div>
-									<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-										<img class="img-fluid" src="images/02.jpg" alt="..." />
+									<a class="portfolio-link" data-bs-toggle="modal" href="#socialPost3">
+										<img class="img-fluid" src="images/socail-post/ngaythaythuocvietnam/00.jpg" alt="..." />
 									</a>
 								</div>
 							</div>
@@ -149,12 +222,12 @@
 								<div class="cat">Packaging</div>
 							</div>
 						</div>
-						<div class="single-portfolio col-sm-4 all artworks">
+						<div class="single-portfolio col-sm-4 all social-post">
 							<div class="relative">
 								<div class="thumb portfolio-item">
 									<div class="overlay overlay-bg"></div>
-									<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
-										<img class="img-fluid" src="images/02.jpg" alt="..." />
+									<a class="portfolio-link" data-bs-toggle="modal" href="#socialPost4">
+										<img class="img-fluid" src="images/socail-post/valentine/00.jpg" alt="..." />
 									</a>
 								</div>
 							</div>
@@ -163,12 +236,12 @@
 								<div class="cat">Packaging</div>
 							</div>
 						</div>
-						<div class="single-portfolio col-sm-4 all artworks">
+						<div class="single-portfolio col-sm-4 all social-post">
 							<div class="relative">
 								<div class="thumb portfolio-item">
 									<div class="overlay overlay-bg"></div>
-									<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal">
-										<img class="img-fluid" src="images/02.jpg" alt="..." />
+									<a class="portfolio-link" data-bs-toggle="modal" href="#socialPost5">
+										<img class="img-fluid" src="images/socail-post/giaiphong-laodong/00.jpg" alt="..." />
 									</a>
 								</div>
 							</div>
@@ -177,6 +250,23 @@
 								<div class="cat">Packaging</div>
 							</div>
 						</div>
+						<div class="single-portfolio col-sm-4 all social-post">
+							<div class="relative">
+								<div class="thumb portfolio-item">
+									<div class="overlay overlay-bg"></div>
+									<a class="portfolio-link" data-bs-toggle="modal" href="#socialPost6">
+										<img class="img-fluid" src="images/socail-post/quoctephunu/00.jpg" alt="..." />
+									</a>
+								</div>
+							</div>
+							<div class="p-inner">
+								<h4>Creative Package Design</h4>
+								<div class="cat">Packaging</div>
+							</div>
+						</div>
+
+						<!-- Publication -->
+
 
 					</div>
 				</div>
@@ -186,6 +276,8 @@
 	
 
 	<!-- Portfolio Modals-->
+
+	<!-- Visual Identity -->
 	<!-- Portfolio item 1 modal popup-->
 	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
@@ -520,8 +612,9 @@
 			</div>
 		</div>
 	</div>
-	<!-- Portfolio item 5 modal popup-->
-	<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+
+	<!-- Advertising -->
+	<div class="portfolio-modal modal fade" id="advertising1" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
@@ -530,30 +623,82 @@
 					<div class="row justify-content-center">
 						<div class="col-lg-8">
 							<div class="modal-body">
-								<!-- Project details-->
-								<h2 class="text-uppercase">Accessories</h2>
-								<p class="item-intro text-muted">Calfskin key chain with logo tag</p>
-								<img class="img-fluid d-block mx-auto"
-									src="https://www.dolcegabbana.com/dw/image/v2/AAGA_PRD/on/demandware.static/-/Sites-15/default/dw2e5bf30f/images/zoom/BP1371AG219_80999_0.jpg?sw=640&sh=816&sm=fit"
-									alt="..." />
-								<p style="margin-bottom: 0">Import duties included</p>
-								<p style="margin-bottom: 0">Nr. BP1371AG21980999</p>
-								<p style="margin-bottom: 0">This Dauphine calfskin key chain features the
-									ruthenium-plated logo tag detail.</p>
-								<ul class="list-inline">
-									<li>
-										<strong>Client:</strong>
-										Southwest
-									</li>
-									<li>
-										<strong>Category:</strong>
-										Accessories
-									</li>
-								</ul>
+								<section class="ftco-section single-portfolio">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12 single-portfolio">
+												<div class="slider-hero">
+													<div class="featured-carousel owl-carousel">
+														<div class="item">
+															<div class="work">
+																<a href="images/advertising/kartell/01.jpg" style="background-image: url(images/advertising/kartell/01.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="advertising1">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/advertising/kartell/02.jpg" style="background-image: url(images/advertising/kartell/02.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="advertising1">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/advertising/kartell/03.jpg" style="background-image: url(images/advertising/kartell/03.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="advertising1">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/advertising/kartell/04.jpg" style="background-image: url(images/advertising/kartell/04.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="advertising1">
+																		
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="text-center">
+														<ul class="thumbnail carousel-caption">
+															<li><a href="#"><img src="images/advertising/kartell/01.jpg" alt="Image"
+																class="img-fluid"></a></li>
+															<li class="active img"><a href="#"><img src="images/advertising/kartell/03.jpg"
+																		alt="Image" class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/advertising/kartell/04.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/advertising/kartell/02.jpg" alt="Image"
+																class="img-fluid"></a></li>
+
+														</ul>
+													</div>
+													
+												</div>
+												<div class="text-carousel-items" style="margin-top: 10.5rem; text-align: left;">
+													<p style="margin-bottom: 0">Import duties included</p>
+													<p style="margin-bottom: 0">Art. Nr. BM2038AH53989853</p>Art. Nr. BM2038AH53989853
+													<p style="margin-bottom: 0">The new “Denim” collection is the result of an evocative
+														journey back to the brand’s roots, which have been reworked to add contemporary
+														edge. This new calfskin and denim crossbody bag features the all-over DG logo.
+														Practical and compact, it features...</p>
+													<ul class="list-inline">
+														<li>
+															<strong>Client:</strong>
+															Finish
+														</li>
+														<li>
+															<strong>Category:</strong>
+															Identity
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
 								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
 									type="button">
 									<i class="fas fa-xmark me-1"></i>
-									Close Product
+									Close Project
 								</button>
 							</div>
 						</div>
@@ -562,6 +707,742 @@
 			</div>
 		</div>
 	</div>
+	<div class="portfolio-modal modal fade" id="advertising2" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<section class="ftco-section single-portfolio">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12 single-portfolio">
+												<div class="slider-hero">
+													<div class="featured-carousel owl-carousel">
+														<div class="item">
+															<div class="work">
+																<a href="images/advertising/eWater/01.jpg" style="background-image: url(images/advertising/eWater/01.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="advertising2">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/advertising/eWater/02.jpg" style="background-image: url(images/advertising/eWater/02.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="advertising2">
+																		
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="text-center">
+														<ul class="thumbnail carousel-caption">
+															<li class="active img"><a href="#"><img src="images/advertising/eWater/01.jpg"
+																		alt="Image" class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/advertising/eWater/02.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+
+														</ul>
+													</div>
+													
+												</div>
+												<div class="text-carousel-items" style="margin-top: 10.5rem; text-align: left;">
+													<p style="margin-bottom: 0">Import duties included</p>
+													<p style="margin-bottom: 0">Art. Nr. BM2038AH53989853</p>Art. Nr. BM2038AH53989853
+													<p style="margin-bottom: 0">The new “Denim” collection is the result of an evocative
+														journey back to the brand’s roots, which have been reworked to add contemporary
+														edge. This new calfskin and denim crossbody bag features the all-over DG logo.
+														Practical and compact, it features...</p>
+													<ul class="list-inline">
+														<li>
+															<strong>Client:</strong>
+															Finish
+														</li>
+														<li>
+															<strong>Category:</strong>
+															Identity
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+									type="button">
+									<i class="fas fa-xmark me-1"></i>
+									Close Project
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="advertising3" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<section class="ftco-section single-portfolio">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12 single-portfolio">
+												<div class="slider-hero">
+													<div class="featured-carousel owl-carousel">
+														<div class="item">
+															<div class="work">
+																<a href="images/advertising/nhagiaovietnam/01.jpg" style="background-image: url(images/advertising/nhagiaovietnam/01.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="advertising3">
+																		
+																</a>
+															</div>
+														</div>
+														
+													</div>
+													<div class="text-center">
+														<ul class="thumbnail carousel-caption">
+															<li class="active img"><a href="#"><img src="images/advertising/nhagiaovietnam/01.jpg"
+																		alt="Image" class="img-fluid"></a></li>
+															
+
+														</ul>
+													</div>
+													
+												</div>
+												<div class="text-carousel-items" style="margin-top: 10.5rem; text-align: left;">
+													<p style="margin-bottom: 0">Import duties included</p>
+													<p style="margin-bottom: 0">Art. Nr. BM2038AH53989853</p>Art. Nr. BM2038AH53989853
+													<p style="margin-bottom: 0">The new “Denim” collection is the result of an evocative
+														journey back to the brand’s roots, which have been reworked to add contemporary
+														edge. This new calfskin and denim crossbody bag features the all-over DG logo.
+														Practical and compact, it features...</p>
+													<ul class="list-inline">
+														<li>
+															<strong>Client:</strong>
+															Finish
+														</li>
+														<li>
+															<strong>Category:</strong>
+															Identity
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+									type="button">
+									<i class="fas fa-xmark me-1"></i>
+									Close Project
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="advertising4" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<section class="ftco-section single-portfolio">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12 single-portfolio">
+												<div class="slider-hero">
+													<div class="featured-carousel owl-carousel">
+														<div class="item">
+															<div class="work">
+																<a href="images/advertising/quoctephunu/05.jpg" style="background-image: url(images/advertising/quoctephunu/05.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="advertising4">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/advertising/quoctephunu/01.jpg" style="background-image: url(images/advertising/quoctephunu/01.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="advertising4">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/advertising/quoctephunu/02.jpg" style="background-image: url(images/advertising/quoctephunu/02.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="advertising4">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/advertising/quoctephunu/03.jpg" style="background-image: url(images/advertising/quoctephunu/03.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="advertising4">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/advertising/quoctephunu/04.jpg" style="background-image: url(images/advertising/quoctephunu/04.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="advertising4">
+																		
+																</a>
+															</div>
+														</div>
+														
+													</div>
+													<div class="text-center">
+														<ul class="thumbnail carousel-caption">
+															<li><a href="#"><img src="images/advertising/quoctephunu/01.jpg"
+																		alt="Image" class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/advertising/quoctephunu/02.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/advertising/quoctephunu/03.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+																		<li><a href="#"><img src="images/advertising/quoctephunu/04.jpg" alt="Image"
+																			class="img-fluid"></a></li>
+																			<li class="active img"><a href="#"><img src="images/advertising/quoctephunu/05.jpg" alt="Image"
+																				class="img-fluid"></a></li>
+
+														</ul>
+													</div>
+													
+												</div>
+												<div class="text-carousel-items" style="margin-top: 10.5rem; text-align: left;">
+													<p style="margin-bottom: 0">Import duties included</p>
+													<p style="margin-bottom: 0">Art. Nr. BM2038AH53989853</p>Art. Nr. BM2038AH53989853
+													<p style="margin-bottom: 0">The new “Denim” collection is the result of an evocative
+														journey back to the brand’s roots, which have been reworked to add contemporary
+														edge. This new calfskin and denim crossbody bag features the all-over DG logo.
+														Practical and compact, it features...</p>
+													<ul class="list-inline">
+														<li>
+															<strong>Client:</strong>
+															Finish
+														</li>
+														<li>
+															<strong>Category:</strong>
+															Identity
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+									type="button">
+									<i class="fas fa-xmark me-1"></i>
+									Close Project
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Social Post -->
+	<!-- Portfolio item SocialPost1 popup-->
+	<div class="portfolio-modal modal fade" id="socialPost1" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<section class="ftco-section single-portfolio">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12 single-portfolio">
+												<div class="slider-hero">
+													<div class="featured-carousel owl-carousel">
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/ngayquoctethieunhi/04.jpg" style="background-image: url(images/socail-post/ngayquoctethieunhi/04.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost1">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/ngayquoctethieunhi/02.jpg" style="background-image: url(images/socail-post/ngayquoctethieunhi/02.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost1">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/ngayquoctethieunhi/03.jpg" style="background-image: url(images/socail-post/ngayquoctethieunhi/03.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost1">
+																		
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="text-center">
+														<ul class="thumbnail carousel-caption">
+															<li class="active img"><a href="#"><img src="images/socail-post/ngayquoctethieunhi/04.jpg"
+																		alt="Image" class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/socail-post/ngayquoctethieunhi/02.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/socail-post/ngayquoctethieunhi/03.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+
+														</ul>
+													</div>
+													
+												</div>
+												<div class="text-carousel-items" style="margin-top: 10.5rem; text-align: left;">
+													<p style="margin-bottom: 0">Import duties included</p>
+													<p style="margin-bottom: 0">Art. Nr. BM2038AH53989853</p>Art. Nr. BM2038AH53989853
+													<p style="margin-bottom: 0">The new “Denim” collection is the result of an evocative
+														journey back to the brand’s roots, which have been reworked to add contemporary
+														edge. This new calfskin and denim crossbody bag features the all-over DG logo.
+														Practical and compact, it features...</p>
+													<ul class="list-inline">
+														<li>
+															<strong>Client:</strong>
+															Finish
+														</li>
+														<li>
+															<strong>Category:</strong>
+															Identity
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+									type="button">
+									<i class="fas fa-xmark me-1"></i>
+									Close Project
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio item SocialPost2 popup-->
+	<div class="portfolio-modal modal fade" id="socialPost2" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<section class="ftco-section single-portfolio">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12 single-portfolio">
+												<div class="slider-hero">
+													<div class="featured-carousel owl-carousel">
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/ngayphunuvietnam/01.jpg" style="background-image: url(images/socail-post/ngayphunuvietnam/01.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost2">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/ngayphunuvietnam/02.jpg" style="background-image: url(images/socail-post/ngayphunuvietnam/02.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost2">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/ngayphunuvietnam/03.jpg" style="background-image: url(images/socail-post/ngayphunuvietnam/03.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost2">
+																		
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="text-center">
+														<ul class="thumbnail carousel-caption">
+															<li class="active img"><a href="#"><img src="images/socail-post/ngayphunuvietnam/01.jpg"
+																		alt="Image" class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/socail-post/ngayphunuvietnam/02.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/socail-post/ngayphunuvietnam/03.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+
+														</ul>
+													</div>
+													
+												</div>
+												<div class="text-carousel-items" style="margin-top: 10.5rem; text-align: left;">
+													<p style="margin-bottom: 0">Import duties included</p>
+													<p style="margin-bottom: 0">Art. Nr. BM2038AH53989853</p>Art. Nr. BM2038AH53989853
+													<p style="margin-bottom: 0">The new “Denim” collection is the result of an evocative
+														journey back to the brand’s roots, which have been reworked to add contemporary
+														edge. This new calfskin and denim crossbody bag features the all-over DG logo.
+														Practical and compact, it features...</p>
+													<ul class="list-inline">
+														<li>
+															<strong>Client:</strong>
+															Finish
+														</li>
+														<li>
+															<strong>Category:</strong>
+															Identity
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+									type="button">
+									<i class="fas fa-xmark me-1"></i>
+									Close Project
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio item SocialPost3 popup-->
+	<div class="portfolio-modal modal fade" id="socialPost3" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<section class="ftco-section single-portfolio">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12 single-portfolio">
+												<div class="slider-hero">
+													<div class="featured-carousel owl-carousel">
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/ngaythaythuocvietnam/01.jpg" style="background-image: url(images/socail-post/ngaythaythuocvietnam/01.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost3">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/ngaythaythuocvietnam/02.jpg" style="background-image: url(images/socail-post/ngaythaythuocvietnam/02.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost3">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/ngaythaythuocvietnam/03.jpg" style="background-image: url(images/socail-post/ngaythaythuocvietnam/03.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost3">
+																		
+																</a>
+															</div>
+														</div>
+														
+													</div>
+													<div class="text-center">
+														<ul class="thumbnail carousel-caption">
+															<li class="active img"><a href="#"><img src="images/socail-post/ngaythaythuocvietnam/01.jpg"
+																		alt="Image" class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/socail-post/ngaythaythuocvietnam/02.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/socail-post/ngaythaythuocvietnam/03.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+
+														</ul>
+													</div>
+													
+												</div>
+												<div class="text-carousel-items" style="margin-top: 10.5rem; text-align: left;">
+													<p style="margin-bottom: 0">Content: Greeting for Vietnamese Doctor's Day 27.2</p>
+													<p style="margin-bottom: 0">Category: Social Post</p>
+													<p style="margin-bottom: 0">Client: Phố Xinh</p>
+													<p style="margin-bottom: 0">Date: 2023 February</p>
+													<p style="margin-bottom: 0">Social network: Facebook</p>
+													<p style="margin-bottom: 0">Tool: Blender</p>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+									type="button">
+									<i class="fas fa-xmark me-1"></i>
+									Close Project
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio item SocialPost4 popup-->
+	<div class="portfolio-modal modal fade" id="socialPost4" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<section class="ftco-section single-portfolio">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12 single-portfolio">
+												<div class="slider-hero">
+													<div class="featured-carousel owl-carousel">
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/valentine/01.jpg" style="background-image: url(images/socail-post/valentine/01.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost4">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/valentine/02.jpg" style="background-image: url(images/socail-post/valentine/02.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost4">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/valentine/03.jpg" style="background-image: url(images/socail-post/valentine/03.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost4">
+																		
+																</a>
+															</div>
+														</div>
+														
+													</div>
+													<div class="text-center">
+														<ul class="thumbnail carousel-caption">
+															<li class="active img"><a href="#"><img src="images/socail-post/valentine/01.jpg"
+																		alt="Image" class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/socail-post/valentine/02.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/socail-post/valentine/03.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+
+														</ul>
+													</div>
+													
+												</div>
+												<div class="text-carousel-items" style="margin-top: 10.5rem; text-align: left;">
+													<p style="margin-bottom: 0">Content: Greeting for Vietnamese Doctor's Day 27.2</p>
+													<p style="margin-bottom: 0">Category: Social Post</p>
+													<p style="margin-bottom: 0">Client: Phố Xinh</p>
+													<p style="margin-bottom: 0">Date: 2023 February</p>
+													<p style="margin-bottom: 0">Social network: Facebook</p>
+													<p style="margin-bottom: 0">Tool: Blender</p>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+									type="button">
+									<i class="fas fa-xmark me-1"></i>
+									Close Project
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio item SocialPost5 popup-->
+	<div class="portfolio-modal modal fade" id="socialPost5" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<section class="ftco-section single-portfolio">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12 single-portfolio">
+												<div class="slider-hero">
+													<div class="featured-carousel owl-carousel">
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/giaiphong-laodong/01.jpg" style="background-image: url(images/socail-post//giaiphong-laodong/01.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost5">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/giaiphong-laodong/02.jpg" style="background-image: url(images/socail-post//giaiphong-laodong/02.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost5">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/giaiphong-laodong/03.jpg" style="background-image: url(images/socail-post//giaiphong-laodong/03.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost5">
+																		
+																</a>
+															</div>
+														</div>
+														
+													</div>
+													<div class="text-center">
+														<ul class="thumbnail carousel-caption">
+															<li class="active img"><a href="#"><img src="images/socail-post//giaiphong-laodong/01.jpg"
+																		alt="Image" class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/socail-post//giaiphong-laodong/02.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/socail-post//giaiphong-laodong/03.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+
+														</ul>
+													</div>
+													
+												</div>
+												<div class="text-carousel-items" style="margin-top: 10.5rem; text-align: left;">
+													<p style="margin-bottom: 0">Content: Greeting for Vietnamese Doctor's Day 27.2</p>
+													<p style="margin-bottom: 0">Category: Social Post</p>
+													<p style="margin-bottom: 0">Client: Phố Xinh</p>
+													<p style="margin-bottom: 0">Date: 2023 February</p>
+													<p style="margin-bottom: 0">Social network: Facebook</p>
+													<p style="margin-bottom: 0">Tool: Blender</p>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+									type="button">
+									<i class="fas fa-xmark me-1"></i>
+									Close Project
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio item SocialPost6 popup-->
+	<div class="portfolio-modal modal fade" id="socialPost6" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<section class="ftco-section single-portfolio">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12 single-portfolio">
+												<div class="slider-hero">
+													<div class="featured-carousel owl-carousel">
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/quoctephunu/01.jpg" style="background-image: url(images/socail-post/quoctephunu/01.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost6">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/quoctephunu/02.jpg" style="background-image: url(images/socail-post/quoctephunu/02.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost6">
+																		
+																</a>
+															</div>
+														</div>
+														<div class="item">
+															<div class="work">
+																<a href="images/socail-post/quoctephunu/03.jpg" style="background-image: url(images/socail-post/quoctephunu/03.jpg);" class="img d-flex align-items-center justify-content-center fancybox" data-fancybox="socialPost6">
+																		
+																</a>
+															</div>
+														</div>
+														
+													</div>
+													<div class="text-center">
+														<ul class="thumbnail carousel-caption">
+															<li class="active img"><a href="#"><img src="images/socail-post//quoctephunu/01.jpg"
+																		alt="Image" class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/socail-post//quoctephunu/02.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+															<li><a href="#"><img src="images/socail-post//quoctephunu/03.jpg" alt="Image"
+																		class="img-fluid"></a></li>
+
+														</ul>
+													</div>
+													
+												</div>
+												<div class="text-carousel-items" style="margin-top: 10.5rem; text-align: left;">
+													<p style="margin-bottom: 0">Content: Greeting for Vietnamese Doctor's Day 27.2</p>
+													<p style="margin-bottom: 0">Category: Social Post</p>
+													<p style="margin-bottom: 0">Client: Phố Xinh</p>
+													<p style="margin-bottom: 0">Date: 2023 February</p>
+													<p style="margin-bottom: 0">Social network: Facebook</p>
+													<p style="margin-bottom: 0">Tool: Blender</p>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+									type="button">
+									<i class="fas fa-xmark me-1"></i>
+									Close Project
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<!-- Publication -->
 	<!-- Portfolio item 6 modal popup-->
 	<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
@@ -692,6 +1573,7 @@
 
 	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
 			class="bi bi-arrow-up-short"></i></a>
+
 	<!-- Menu Click - Tab -->
 	<script src="js/vendor/jquery.waypoints.min.js"></script>
 	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
@@ -709,6 +1591,9 @@
 	<script src="carousel/js/bootstrap.min.js"></script>
 	<script src="carousel/js/owl.carousel.min.js"></script>
 	<script src="carousel/js/main.js"></script>
+
+	<!-- Bar Scroll -->
+	<script src="js/bar.js"></script>	
 
 </body>
 </html>

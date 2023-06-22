@@ -282,7 +282,6 @@
         right: 0;
         bottom: 0;
         content: '';
-        z-index: -1;
         opacity: .3; }
     .work .text h2 {
       font-size: 60px;
@@ -302,6 +301,7 @@
   .thumbnail {
     list-style: none;
     position: absolute;
+    z-index: 1000;
     padding: 0;
     margin: 0;
     bottom: 0px;
@@ -334,10 +334,10 @@
         .thumbnail li a img {
           width: 50px; } 
           .carousel-caption {
-            padding-top: 13.5rem;
+            padding-top: 0rem !important;
           }
           .text-carousel-items {
-            margin-top: 14.5rem ;
+            margin-top: 4.5rem !important;
           }}
           .img-thumbnail {
             padding: 0.25rem;

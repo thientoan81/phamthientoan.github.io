@@ -752,10 +752,9 @@ a:focus
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 1;
 }
-
 .single-portfolio:hover .portfolio-link img {
-	opacity: 0.7;
 	transition: .3s all ease-in-out;
+	opacity: 0.7;
 		
 }
 
@@ -956,6 +955,7 @@ a:focus
 	height: 100vh;
 	background: url("../images/background.jpg") top center;
 	background-size: cover;
+	background-attachment: fixed;
   }
   
   #hero:before {
@@ -1028,3 +1028,12 @@ a:focus
 	color: white;
 	background-color: #F15D2A;
   }
+
+  .indicator {
+	height: 5px;
+	width: 0;
+	background-color: #F15D2A;
+	z-index: 1000;
+	top: 0;
+	position: fixed;
+}
